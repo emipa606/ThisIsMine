@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <TIM.BelongsToRoomCommon>Public</TIM.BelongsToRoomCommon>
+  <TIM.BelongsToRoomPrivate>Assigned to bed</TIM.BelongsToRoomPrivate>
+  <TIM.ConnectToRoom>Connect to room</TIM.ConnectToRoom>
+  <TIM.ConnectToRoomDesc>Connect to room</TIM.ConnectToRoomDesc>
+  <TIM.UnassignFromRoom>Unassign from room</TIM.UnassignFromRoom>
+  <TIM.UnassignFromRoomDesc>Unassign from room</TIM.UnassignFromRoomDesc>
+  <TIM.BelongsToRoomDesc>Belongs to room</TIM.BelongsToRoomDesc>
+</LanguageData>
