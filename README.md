@@ -1,25 +1,28 @@
 # ThisIsMine
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of El Luchadors mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2384987719
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+- Furniture that gets moved or just minified will now reset their ownership
+- Changed one of the hotkeys as it was requested in the comments
+
+![Image](https://i.imgur.com/pufA0kM.png)
 
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
-A simple tool for assigning furniture such as tables, chairs, shelves and joy objects to beds, for bedowner&apos;s use only. Pawns will not sit at the tables, use joy items, take items from shelves (but will haul them there), flick switches or refuel as long as the furniture is assigned to bed that doesn&apos;t belong to them and is toggled as &apos;assigned to bed&apos;.
+A simple tool for assigning furniture such as tables, chairs, shelves and joy objects to beds, for bedowner's use only. Pawns will not sit at the tables, use joy items, take items from shelves (but will haul them there), flick switches or refuel as long as the furniture is assigned to bed that doesn't belong to them and is toggled as 'assigned to bed'.
 
 Compatibility:
-The code works with vanilla defs, so as long the mod uses proper labels, it should be compatibile with just about any mod that adds furniture. For the same reason, there shouldn&apos;t be hard incompatibilities either. Works with LWM&apos;s Deep Storage and RimFridge.
+The code works with vanilla defs, so as long the mod uses proper labels, it should be compatibile with just about any mod that adds furniture. For the same reason, there shouldn't be hard incompatibilities either. Works with LWM's Deep Storage and RimFridge.
 
 This is a paid mod, the C# coding done by Taranchuk on Rimworld Mod Market Discord server:
 https://discord.com/invite/7befJWr9xS]![Image](https://i.imgur.com/gh6C5m2.png)
 
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 

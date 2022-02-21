@@ -1,12 +1,11 @@
 ﻿using Verse;
 
-namespace ThisIsMine
+namespace ThisIsMine;
+
+public class CompProperties_CanBelongToRoomOwners : CompProperties
 {
-    public class CompProperties_CanBelongToRoomOwners : CompProperties
+    public CompProperties_CanBelongToRoomOwners()
     {
-        public CompProperties_CanBelongToRoomOwners()
-        {
-            compClass = typeof(CompCanBelongToRoomOwners);
-        }
+        compClass = typeof(CompCanBelongToRoomOwners);
     }
 }
