@@ -35,6 +35,8 @@ public static class HarmonyInit
         }
 
         ThingDef.Named("SleepAccelerator").comps.Add(new CompProperties_CanBelongToRoomOwners());
+        ThingDef.Named("NeuralSupercharger").comps.Add(new CompProperties_CanBelongToRoomOwners());
+        ThingDef.Named("BiosculpterPod").comps.Add(new CompProperties_CanBelongToRoomOwners());
     }
 
     public static bool PawnCanHaveIt(Pawn pawn, Thing thing)
