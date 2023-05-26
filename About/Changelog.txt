@@ -1,5 +1,9 @@
 # Changelog for ThisIsMine
 
+1.4.3 - Updated icons by Soul.
+Used DeepL to update translations for ChineseSimplified, French, German
+
+
 1.4.2 - Added nullcheck for ideology items
 
 

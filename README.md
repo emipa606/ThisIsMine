@@ -36,3 +36,4 @@ https://discord.com/invite/7befJWr9xS]![Image](https://i.imgur.com/gh6C5m2.png)
 
 
 
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2560584629]Last updated 2023-05-26
