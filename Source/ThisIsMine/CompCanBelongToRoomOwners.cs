@@ -7,7 +7,7 @@ namespace ThisIsMine;
 
 public class CompCanBelongToRoomOwners : ThingComp
 {
-    public static readonly HashSet<Thing> privateThings = new HashSet<Thing>();
+    public static readonly HashSet<Thing> privateThings = [];
     public IntVec3 belongsToCell = IntVec3.Invalid;
     public bool belongsToRoomOwners;
 

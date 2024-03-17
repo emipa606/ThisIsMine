@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using HarmonyLib;
 using RimWorld;
 using Verse;
@@ -23,7 +22,7 @@ public static class HarmonyInit
 
             if (furniture.comps is null)
             {
-                furniture.comps = new List<CompProperties>();
+                furniture.comps = [];
             }
 
             furniture.comps.Add(new CompProperties_CanBelongToRoomOwners());
