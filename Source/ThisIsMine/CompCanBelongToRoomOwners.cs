@@ -57,8 +57,7 @@ public class CompCanBelongToRoomOwners : ThingComp
                 {
                     privateThings.Remove(parent);
                 }
-            },
-            hotKey = KeyBindingDefOf.Misc2
+            }
         };
         yield return command_Action;
 
@@ -70,7 +69,6 @@ public class CompCanBelongToRoomOwners : ThingComp
                     null, null);
             },
             defaultLabel = "TIM.ConnectToRoom".Translate(),
-            hotKey = KeyBindingDefOf.Misc3,
             defaultDesc = "TIM.ConnectToRoomDesc".Translate(),
             icon = ContentFinder<Texture2D>.Get("UI/Commands/AssignToRoomIcon", false)
         };
@@ -82,7 +80,6 @@ public class CompCanBelongToRoomOwners : ThingComp
                 belongsToCell = IntVec3.Invalid;
             },
             defaultLabel = "TIM.UnassignFromRoom".Translate(),
-            hotKey = KeyBindingDefOf.Misc5,
             defaultDesc = "TIM.UnassignFromRoomDesc".Translate(),
             icon = ContentFinder<Texture2D>.Get("UI/Commands/Icon-Unassign_from_room", false)
         };

@@ -1,6 +1,7 @@
 ﻿using System.Linq;
 using HarmonyLib;
 using RimWorld;
+using ThisIsMine.HarmonyPatches;
 using Verse;
 
 namespace ThisIsMine;
@@ -64,7 +65,7 @@ public static class HarmonyInit
             return true;
         }
 
-        if (Patch_SpawnSetup.storageCells.Contains(thing.Position))
+        if (Building_Storage_SpawnSetup.storageCells.Contains(thing.Position))
         {
             var container = thing.Position.GetFirstThing<Building_Storage>(pawn.Map);
             if (container != null && container != thing && !PawnCanHaveIt(pawn, container))

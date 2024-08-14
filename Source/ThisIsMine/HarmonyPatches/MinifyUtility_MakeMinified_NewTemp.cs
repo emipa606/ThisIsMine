@@ -2,10 +2,10 @@
 using RimWorld;
 using Verse;
 
-namespace ThisIsMine;
+namespace ThisIsMine.HarmonyPatches;
 
-[HarmonyPatch(typeof(MinifyUtility), "MakeMinified")]
-public static class Patch_MakeMinified
+[HarmonyPatch(typeof(MinifyUtility), nameof(MinifyUtility.MakeMinified_NewTemp))]
+public static class MinifyUtility_MakeMinified_NewTemp
 {
     private static void Postfix(ref MinifiedThing __result)
     {

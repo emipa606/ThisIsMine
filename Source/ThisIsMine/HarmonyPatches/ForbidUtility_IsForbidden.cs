@@ -2,10 +2,10 @@
 using RimWorld;
 using Verse;
 
-namespace ThisIsMine;
+namespace ThisIsMine.HarmonyPatches;
 
-[HarmonyPatch(typeof(ForbidUtility), "IsForbidden", typeof(Thing), typeof(Pawn))]
-public static class Patch_IsForbidden
+[HarmonyPatch(typeof(ForbidUtility), nameof(ForbidUtility.IsForbidden), typeof(Thing), typeof(Pawn))]
+public static class ForbidUtility_IsForbidden
 {
     private static void Postfix(ref bool __result, Thing t, Pawn pawn)
     {

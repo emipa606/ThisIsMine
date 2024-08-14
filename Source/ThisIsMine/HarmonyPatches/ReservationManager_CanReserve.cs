@@ -4,8 +4,8 @@ using Verse.AI;
 
 namespace ThisIsMine;
 
-[HarmonyPatch(typeof(ReservationManager), "CanReserve")]
-public static class Patch_CanReserve
+[HarmonyPatch(typeof(ReservationManager), nameof(ReservationManager.CanReserve))]
+public static class ReservationManager_CanReserve
 {
     private static void Postfix(ref bool __result, Pawn claimant, LocalTargetInfo target)
     {
