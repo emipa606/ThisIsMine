@@ -1,4 +1,5 @@
 ﻿using System.Linq;
+using System.Reflection;
 using HarmonyLib;
 using RimWorld;
 using ThisIsMine.HarmonyPatches;
@@ -11,8 +12,7 @@ public static class HarmonyInit
 {
     static HarmonyInit()
     {
-        var harmony = new Harmony("Elseud.ThisIsMine");
-        harmony.PatchAll();
+        new Harmony("Elseud.ThisIsMine").PatchAll(Assembly.GetExecutingAssembly());
         foreach (var furniture in DefDatabase<ThingDef>.AllDefs.Where(x =>
                      x.thingCategories?.Contains(ThingCategoryDef.Named("BuildingsFurniture")) ?? false))
         {
@@ -21,10 +21,7 @@ public static class HarmonyInit
                 continue;
             }
 
-            if (furniture.comps is null)
-            {
-                furniture.comps = [];
-            }
+            furniture.comps ??= [];
 
             furniture.comps.Add(new CompProperties_CanBelongToRoomOwners());
         }
@@ -65,7 +62,7 @@ public static class HarmonyInit
             return true;
         }
 
-        if (Building_Storage_SpawnSetup.storageCells.Contains(thing.Position))
+        if (Building_Storage_SpawnSetup.StorageCells.Contains(thing.Position))
         {
             var container = thing.Position.GetFirstThing<Building_Storage>(pawn.Map);
             if (container != null && container != thing && !PawnCanHaveIt(pawn, container))

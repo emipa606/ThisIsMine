@@ -1,5 +1,8 @@
 # Changelog for ThisIsMine
 
+1.6.0 - Mod updated for 1.6 and passed autotests
+
+
 1.5.1 - Removed keybindings as they conflicted with vanilla keybinding
 
 

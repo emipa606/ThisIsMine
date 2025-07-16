@@ -4,8 +4,8 @@ using Verse;
 
 namespace ThisIsMine.HarmonyPatches;
 
-[HarmonyPatch(typeof(MinifyUtility), nameof(MinifyUtility.MakeMinified_NewTemp))]
-public static class MinifyUtility_MakeMinified_NewTemp
+[HarmonyPatch(typeof(MinifyUtility), nameof(MinifyUtility.MakeMinified))]
+public static class MinifyUtility_MakeMinified
 {
     private static void Postfix(ref MinifiedThing __result)
     {

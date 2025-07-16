@@ -29,7 +29,7 @@ public class CompCanBelongToRoomOwners : ThingComp
         }
     }
 
-    public static TargetingParameters ForRoom()
+    private static TargetingParameters forRoom()
     {
         var targetingParameters = new TargetingParameters { canTargetLocations = true };
         return targetingParameters;
@@ -37,7 +37,7 @@ public class CompCanBelongToRoomOwners : ThingComp
 
     public override IEnumerable<Gizmo> CompGetGizmosExtra()
     {
-        var command_Action = new Command_Action
+        var commandAction = new Command_Action
         {
             defaultLabel = belongsToRoomOwners
                 ? "TIM.BelongsToRoomPrivate".Translate()
@@ -59,13 +59,13 @@ public class CompCanBelongToRoomOwners : ThingComp
                 }
             }
         };
-        yield return command_Action;
+        yield return commandAction;
 
         yield return new Command_Action
         {
             action = delegate
             {
-                Find.Targeter.BeginTargeting(ForRoom(), delegate(LocalTargetInfo x) { belongsToCell = x.Cell; },
+                Find.Targeter.BeginTargeting(forRoom(), delegate(LocalTargetInfo x) { belongsToCell = x.Cell; },
                     null, null);
             },
             defaultLabel = "TIM.ConnectToRoom".Translate(),
