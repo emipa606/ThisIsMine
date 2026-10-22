@@ -8,7 +8,7 @@ namespace ThisIsMine;
 [HarmonyPatch(typeof(Toils_Ingest), nameof(Toils_Ingest.FindAdjacentEatSurface))]
 public static class Toils_Ingest_FindAdjacentEatSurface
 {
-    private static bool Prefix(ref Toil __result, TargetIndex eatSurfaceInd, TargetIndex foodInd)
+    public static bool Prefix(ref Toil __result, TargetIndex eatSurfaceInd, TargetIndex foodInd)
     {
         var toil = new Toil();
         toil.initAction = delegate

@@ -10,7 +10,7 @@ public static class Building_Storage_SpawnSetup
 {
     public static readonly HashSet<IntVec3> StorageCells = [];
 
-    private static void Postfix(Building_Storage __instance)
+    public static void Postfix(Building_Storage __instance)
     {
         StorageCells.AddRange(__instance.AllSlotCells());
     }

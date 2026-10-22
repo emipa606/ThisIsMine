@@ -7,7 +7,7 @@ namespace ThisIsMine.HarmonyPatches;
 [HarmonyPatch(typeof(MinifyUtility), nameof(MinifyUtility.MakeMinified))]
 public static class MinifyUtility_MakeMinified
 {
-    private static void Postfix(ref MinifiedThing __result)
+    public static void Postfix(ref MinifiedThing __result)
     {
         if (__result == null)
         {

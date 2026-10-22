@@ -7,7 +7,7 @@ namespace ThisIsMine;
 [HarmonyPatch(typeof(ReservationManager), nameof(ReservationManager.CanReserve))]
 public static class ReservationManager_CanReserve
 {
-    private static void Postfix(ref bool __result, Pawn claimant, LocalTargetInfo target)
+    public static void Postfix(ref bool __result, Pawn claimant, LocalTargetInfo target)
     {
         if (!__result)
         {

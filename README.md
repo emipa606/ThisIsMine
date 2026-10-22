@@ -1,6 +1,6 @@
 # [This Is Mine (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2560584629)
 
-![Image](https://i.imgur.com/buuPQel.png)
+![Image](https://img.litet.net/logos/Info.png)
 
 Update of El Luchadors mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2384987719
@@ -11,9 +11,9 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2384987719
 
 If the icons look distorted, try to uncheck texture compression in the game settings.
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://img.litet.net/logos/Notice.png)
 	
-![Image](https://i.imgur.com/Z4GOv8H.png)
+![Image](https://img.litet.net/logos/OriginalDescription.png)
 
 A simple tool for assigning furniture such as tables, chairs, shelves and joy objects to beds, for bedowner's use only. Pawns will not sit at the tables, use joy items, take items from shelves (but will haul them there), flick switches or refuel as long as the furniture is assigned to bed that doesn't belong to them and is toggled as 'assigned to bed'.
 
@@ -21,15 +21,15 @@ Compatibility:
 The code works with vanilla defs, so as long the mod uses proper labels, it should be compatibile with just about any mod that adds furniture. For the same reason, there shouldn't be hard incompatibilities either. Works with LWM's Deep Storage and RimFridge.
 
 This is a paid mod, the C# coding done by Taranchuk on Rimworld Mod Market Discord server:
-[![Image](https://i.imgur.com/gh6C5m2.png)](https://discord.com/invite/7befJWr9xS)
+[![Image](https://img.litet.net/gh6C5m2.png)](https://discord.com/invite/7befJWr9xS)
 
-![Image](https://i.imgur.com/PwoNOj4.png)
+![Image](https://img.litet.net/logos/ReportingIssues.png)
 
 
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
+-  Always post your log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
@@ -37,4 +37,4 @@ This is a paid mod, the C# coding done by Taranchuk on Rimworld Mod Market Disco
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/ThisIsMine?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2560584629) | tags:  assigning,  ownership
+[![Image](https://img.shields.io/github/v/release/emipa606/ThisIsMine?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2560584629) | 1.6, Mod, 1.5, 1.2, 1.3, 1.4
